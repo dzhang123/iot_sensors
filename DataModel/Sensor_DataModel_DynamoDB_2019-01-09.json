@@ -1,16 +1,31 @@
 {
     "pid_assembly": "number",
-    "skey_ble": "number",
+    "skey_bleId": "number",
+    "name": "string",
     "wellId": "number",
     "paringCode": "number",
     "subDevices": [
         {
             "id": "number",
-            "deviceType": "string",
-            "hwDevices": [{
-                "id": "number",
-                "name": "string"
-            }]
+            "type": "string",
+            "warmUpTime": "number",
+            "schedules": [
+                {
+                    "id":"number",
+                    "schedulePeriod": "string",
+                    "scheduleType": "string",
+                    "startTime": "number",
+                    "stopTime": "number",
+                    "groupId": "number"
+                }
+            ],
+            "hwDevices": [
+                {
+                    "id": "number",
+                    "name": "string"
+                }
+            ],
+            "acquisitionData": ["blob"]
         }
     ]
 }

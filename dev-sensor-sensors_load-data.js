@@ -23,6 +23,7 @@ allDevices.forEach (sensor => {
         Item: {
             "pid_assembly": sensor.pid_assembly,
             "skey_bleId": sensor.skey_bleId,
+            "name": sensor.name,
             "wellId": sensor.wellId,
             "paringCode": sensor.paringCode,
             "subDevices": sensor.subDevices

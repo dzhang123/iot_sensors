@@ -10,7 +10,7 @@ AWS.config.update({
 
 var dynamodb = new AWS.DynamoDB();
 var params = {
-    TableName: "dev-sensor-acquisition-schedules",
+    TableName: "dev-sensor-schedules",
     KeySchema: [
         {AttributeName: "pid", KeyType: "HASH"}
     ],

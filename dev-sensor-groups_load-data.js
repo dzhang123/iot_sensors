@@ -22,6 +22,7 @@ allDevices.forEach (group => {
         TableName: table,
         Item: {
             "pid": group.pid,
+            "name": group.name,
             "wellId": group.wellId,
             "subDevices": group.subDevices
         }

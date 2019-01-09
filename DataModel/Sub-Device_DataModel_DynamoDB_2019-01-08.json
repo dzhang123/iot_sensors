@@ -1,8 +1,27 @@
 {
     "pid": "number",
-    "deviceType": "string", // inclometer, load_cell, tubing_pressure, casing_pressure
+    "name": "string",
+    "warmUpTime": "number",
+    "deviceType": "string", // inclometer, 
+                            // load_cell, 
+                            // tubing_pressure, 
+                            // casing_pressure
     "hwDevices": [{
         "id": "number",
-        "deviceName": "string", // Temperature_chip, Accelerometer_chip, Gyro_chip, Audio_chip, Bridge_chip_A1
-    }]
+        "deviceName": "string", // Temperature_chip, 
+                                // Accelerometer_chip, 
+                                // Gyro_chip, 
+                                // Audio_chip, 
+                                // Bridge_chip_A1
+    }],
+    "schedules": [
+        {
+            "id": "number",
+            "schedulePeriod": "string", // weekly or monthly
+            "scheduleType": "string", //Acq, maintenance
+            "startTime": "number",
+            "stopTime": "number",
+            "groupId": "number"
+        }
+    ]
 }

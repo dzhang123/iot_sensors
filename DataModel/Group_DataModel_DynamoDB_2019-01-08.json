@@ -1,16 +1,30 @@
 {
     "pid_group": "number",
+    "name": "string",
     "wellId": "number",
     "subDevices": [
         {
             "id": "number",
-            "deviceType": "string",
+            "name": "string",
+            "type": "string",
+            "warmUpTime": "number",
+            "schedules": [
+                {
+                    "id": "number",
+                    "schedulePeriod": "string",
+                    "scheduleType": "string",
+                    "startTime": "number",
+                    "stopTime": "number",
+                    "groupId": "number"
+                }
+            ],
             "hwDevices": [
                 {
                     "id": "number",
                     "name": "string"
                 }
-            ]
+            ],
+            "acquisitionData": ["blob"]
         }
     ]
 }

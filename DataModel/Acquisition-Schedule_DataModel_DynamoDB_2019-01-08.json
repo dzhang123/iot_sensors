@@ -1,7 +1,8 @@
 
 {
     "pid" : "number",
-    "scheduleType" : "string", // Weekly or Monthly
+    "schedulePeriod": "string", //weekly or monthly
+    "scheduleType" : "string", // acq, maintenance
     "startTime": "number",
     "stopTime": "number",
     "groupId": "number"

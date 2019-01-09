@@ -23,7 +23,11 @@ allDevices.forEach (subdevice => {
         Item: {
             "pid": subdevice.pid,
             "type": subdevice.type,
-            "hwDevices": subdevice.hwDevices
+            "name": subdevice.name,
+            "warmUpTime": subdevice.warmUpTime,
+            "schedules": subdevice.schedules,
+            "hwDevices": subdevice.hwDevices,
+            "acquisitionData": subdevice.acquisitionData
         }
     }
     docClient.put(params, (err, data) => {

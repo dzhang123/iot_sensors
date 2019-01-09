@@ -1,43 +1,102 @@
 [
     {
         "pid": 1,
+        "name": "group 1",
         "wellId": 22,
         "subDevices": [
             {
-                "id": 333,
-                "type" : {
-                    "id": 4444,
-                    "name": "Inclometer"
+                "pid": 1,
+                "name": "sub device name",
+                "type": {
+                    "id": 1,
+                    "name": "incl1"
                 },
+                "warmUpTime": 2,
+                "schedules": [
+                    {
+                        "id":1,
+                        "schedulePeriod": "weekly",
+                        "scheduleType": "acquisition",
+                        "startTime": 123,
+                        "stopTime": 234,
+                        "groupId": 12
+                    },
+                    {
+                        "id": 2,
+                        "schedulePeriod": "monthly",
+                        "scheduleType": "maintenance",
+                        "startTime": 456,
+                        "stopTime": 6789,
+                        "groupId": 13
+                    }
+        
+                ],
                 "hwDevices": [
                     {
-                        "id": 55555,
+                        "id": 11,
                         "name": "Temperature_chip"
                     },
                     {
-                        "id": 666666,
+                        "id": 22,
                         "name": "Accelerometer_chip"
+                    }
+                ],
+                "acquisitionData": [
+                    {
+                        "blob": "what is in the data?"
                     },
                     {
-                        "id": 7777,
-                        "name": "Audio_chip"
+                        "blob": "what else is in the data?"
                     }
                 ]
             },
             {
-                "id": 444,
+                "pid": 2,
+                "name": "sub device name2",
                 "type": {
-                    "id": 5555,
-                    "name": "LoadCell"
+                    "id": 1,
+                    "name": "loadc1"
                 },
+                "warmUpTime": 2,
+                "schedules": [
+                    {
+                        "id":1,
+                        "schedulePeriod": "weekly",
+                        "scheduleType": "acquisition",
+                        "startTime": 123,
+                        "stopTime": 234,
+                        "groupId": 12
+                    },
+                    {
+                        "id": 2,
+                        "schedulePeriod": "monthly",
+                        "scheduleType": "maintenance",
+                        "startTime": 456,
+                        "stopTime": 6789,
+                        "groupId": 13
+                    }
+        
+                ],
                 "hwDevices": [
                     {
-                        "id": 8888,
+                        "id": 33,
+                        "name": "Audio_chip"
+                    },
+                    {
+                        "id": 44,
                         "name": "Gyro_chip"
                     },
                     {
-                        "id": 99,
+                        "id": 55,
                         "name": "Bridge_chip_A1"
+                    }
+                ],
+                "acquisitionData": [
+                    {
+                        "blob": "what is in the data?"
+                    },
+                    {
+                        "blob": "what else is in the data?"
                     }
                 ]
             }
@@ -45,43 +104,102 @@
     },
     {
         "pid": 2,
+        "name": "group 2",
         "wellId": 223,
         "subDevices": [
             {
-                "id": 333,
-                "type" : {
-                    "id": 4444,
-                    "name": "Inclometer"
+                "pid": 1,
+                "name": "sub device name",
+                "type": {
+                    "id": 1,
+                    "name": "incl1"
                 },
+                "warmUpTime": 2,
+                "schedules": [
+                    {
+                        "id":1,
+                        "schedulePeriod": "weekly",
+                        "scheduleType": "acquisition",
+                        "startTime": 123,
+                        "stopTime": 234,
+                        "groupId": 12
+                    },
+                    {
+                        "id": 2,
+                        "schedulePeriod": "monthly",
+                        "scheduleType": "maintenance",
+                        "startTime": 456,
+                        "stopTime": 6789,
+                        "groupId": 13
+                    }
+        
+                ],
                 "hwDevices": [
                     {
-                        "id": 55555,
+                        "id": 11,
                         "name": "Temperature_chip"
                     },
                     {
-                        "id": 666666,
+                        "id": 22,
                         "name": "Accelerometer_chip"
+                    }
+                ],
+                "acquisitionData": [
+                    {
+                        "blob": "what is in the data?"
                     },
                     {
-                        "id": 7777,
-                        "name": "Audio_chip"
+                        "blob": "what else is in the data?"
                     }
                 ]
             },
             {
-                "id": 444,
+                "pid": 2,
+                "name": "sub device name",
                 "type": {
-                    "id": 5555,
-                    "name": "LoadCell"
+                    "id": 1,
+                    "name": "loadc1"
                 },
+                "warmUpTime": 2,
+                "schedules": [
+                    {
+                        "id":1,
+                        "schedulePeriod": "weekly",
+                        "scheduleType": "acquisition",
+                        "startTime": 123,
+                        "stopTime": 234,
+                        "groupId": 12
+                    },
+                    {
+                        "id": 2,
+                        "schedulePeriod": "monthly",
+                        "scheduleType": "maintenance",
+                        "startTime": 456,
+                        "stopTime": 6789,
+                        "groupId": 13
+                    }
+        
+                ],
                 "hwDevices": [
                     {
-                        "id": 8888,
+                        "id": 33,
+                        "name": "Audio_chip"
+                    },
+                    {
+                        "id": 44,
                         "name": "Gyro_chip"
                     },
                     {
-                        "id": 99,
+                        "id": 55,
                         "name": "Bridge_chip_A1"
+                    }
+                ],
+                "acquisitionData": [
+                    {
+                        "blob": "what is in the data?"
+                    },
+                    {
+                        "blob": "what else is in the data?"
                     }
                 ]
             }

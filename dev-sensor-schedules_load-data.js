@@ -13,9 +13,9 @@ var docClient = new AWS.DynamoDB.DocumentClient();
 
 console.log("Importing data into DynamoDB. Please wait.");
 
-var allAcqSchedules = JSON.parse(fs.readFileSync("sample_data/acqscheduledata.json", 'utf8'));
+var allAcqSchedules = JSON.parse(fs.readFileSync("sample_data/scheduledata.json", 'utf8'));
 
-var table = "dev-sensor-acquisition-schedules";
+var table = "dev-sensor-schedules";
 
 allAcqSchedules.forEach (schedule => {
     var params = {
@@ -23,6 +23,7 @@ allAcqSchedules.forEach (schedule => {
         Item: {
             "pid": schedule.pid,
             "scheduleType": schedule.scheduleType,
+            "schedulePeriod": schedule.schedulePeriod,
             "startTime": schedule.startTime,
             "stopTime": schedule.stopTime,
             "groupId": schedule.groupId
