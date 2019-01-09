@@ -6,7 +6,7 @@ var fs = require('fs');
 
 AWS.config.update({
     region: "us-east-1",
-    endpoint: "http://localhost:3306"
+    //endpoint: "http://localhost:3306"
 });
 
 var docClient = new AWS.DynamoDB.DocumentClient();
