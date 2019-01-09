@@ -1,0 +1,40 @@
+[
+    {
+        "pid": 1,
+        "type": {
+            "id": 1,
+            "name": "Inclometer"
+        },
+        "hwDevices": [
+            {
+                "id": 11,
+                "name": "Temperature_chip"
+            },
+            {
+                "id": 22,
+                "name": "Accelerometer_chip"
+            }
+        ]
+    },
+    {
+        "pid": 2,
+        "type": {
+            "id": 1,
+            "name": "LoadCell"
+        },
+        "hwDevices": [
+            {
+                "id": 33,
+                "name": "Audio_chip"
+            },
+            {
+                "id": 44,
+                "name": "Gyro_chip"
+            },
+            {
+                "id": 55,
+                "name": "Bridge_chip_A1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,8 @@
+
+{
+    "pid" : "number",
+    "scheduleType" : "string", // Weekly or Monthly
+    "startTime": "number",
+    "stopTime": "number",
+    "groupId": "number"
+}

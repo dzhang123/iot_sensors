@@ -1,0 +1,16 @@
+{
+    "pid_assembly": "number",
+    "skey_ble": "number",
+    "wellId": "number",
+    "paringCode": "number",
+    "subDevices": [
+        {
+            "id": "number",
+            "deviceType": "string",
+            "hwDevices": [{
+                "id": "number",
+                "name": "string"
+            }]
+        }
+    ]
+}

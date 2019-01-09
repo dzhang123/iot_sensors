@@ -1,0 +1,45 @@
+[
+    {
+        "pid": 1,
+        "scheduleType": "weekly",
+        "startTime": 1234,
+        "stopTime": 2344,
+        "groupId": 12
+    },
+
+    {
+        "pid": 2,
+        "scheduleType": "monthly",
+        "startTime": 1234,
+        "stopTime": 2344,
+        "groupId": 12
+    },
+    {
+        "pid": 3,
+        "scheduleType": "monthly",
+        "startTime": 1234,
+        "stopTime": 2344,
+        "groupId": 12
+    },
+    {
+        "pid": 4,
+        "scheduleType": "weekly",
+        "startTime": 1234,
+        "stopTime": 2344,
+        "groupId": 12
+    },
+    {
+        "pid": 5,
+        "scheduleType": "weekly",
+        "startTime": 1234,
+        "stopTime": 2344,
+        "groupId": 12
+    },
+    {
+        "pid": 6,
+        "scheduleType": "monthly",
+        "startTime": 1234,
+        "stopTime": 2344,
+        "groupId": 12
+    }
+]

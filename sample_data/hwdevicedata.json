@@ -1,0 +1,22 @@
+[
+    {
+        "pid": 1,
+        "name": "Temperature_chip"
+    },
+    {
+        "pid": 2,
+        "name": "Accelerometer_chip"
+    },
+    {
+        "pid": 3,
+        "name": "Gyro_chip"
+    },
+    {
+        "pid": 4,
+        "name": "Audio_chip"
+    },
+    {
+        "pid": 5,
+        "name": "Bridge_chip_A1"
+    }
+]

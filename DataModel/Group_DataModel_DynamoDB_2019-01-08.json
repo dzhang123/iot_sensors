@@ -1,0 +1,16 @@
+{
+    "pid_group": "number",
+    "wellId": "number",
+    "subDevices": [
+        {
+            "id": "number",
+            "deviceType": "string",
+            "hwDevices": [
+                {
+                    "id": "number",
+                    "name": "string"
+                }
+            ]
+        }
+    ]
+}

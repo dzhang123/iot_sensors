@@ -1,0 +1,94 @@
+[
+    {
+        "pid_assembly": 1,
+        "skey_bleId": 2,
+        "wellId": 22,
+        "paringCode": 231,
+        "subDevices": [
+            {
+                "id": 333,
+                "type" : {
+                    "id": 4444,
+                    "name": "Inclometer"
+                },
+                "hwDevices": [
+                    {
+                        "id": 55555,
+                        "name": "Temperature_chip"
+                    },
+                    {
+                        "id": 666666,
+                        "name": "Accelerometer_chip"
+                    },
+                    {
+                        "id": 7777,
+                        "name": "Audio_chip"
+                    }
+                ]
+            },
+            {
+                "id": 444,
+                "type": {
+                    "id": 5555,
+                    "name": "LoadCell"
+                },
+                "hwDevices": [
+                    {
+                        "id": 8888,
+                        "name": "Gyro_chip"
+                    },
+                    {
+                        "id": 99,
+                        "name": "Bridge_chip_A1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "pid_assembly": 2,
+        "skey_bleId": 21,
+        "wellId": 223,
+        "paringCode": 3231,
+        "subDevices": [
+            {
+                "id": 333,
+                "type" : {
+                    "id": 4444,
+                    "name": "Inclometer"
+                },
+                "hwDevices": [
+                    {
+                        "id": 55555,
+                        "name": "Temperature_chip"
+                    },
+                    {
+                        "id": 666666,
+                        "name": "Accelerometer_chip"
+                    },
+                    {
+                        "id": 7777,
+                        "name": "Audio_chip"
+                    }
+                ]
+            },
+            {
+                "id": 444,
+                "type": {
+                    "id": 5555,
+                    "name": "LoadCell"
+                },
+                "hwDevices": [
+                    {
+                        "id": 8888,
+                        "name": "Gyro_chip"
+                    },
+                    {
+                        "id": 99,
+                        "name": "Bridge_chip_A1"
+                    }
+                ]
+            }
+        ]
+    }
+]
